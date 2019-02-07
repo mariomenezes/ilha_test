@@ -1,0 +1,42 @@
+############## Django ##############
+
+django<2.2
+djangorestframework
+django-celery-email
+django-compressor
+django-contrib-comments
+django-digest
+django-el-pagination
+django-redis
+django-rosetta
+django-storages
+dj-database-url
+smartmin
+
+############## Misc ##############
+
+boto
+celery
+colorama
+-e git+https://github.com/nyaruka/confmodel.git@python3#egg=confmodel
+gunicorn
+iso-639
+markdown
+pillow
+pisa
+psycopg2
+pycountry
+python-dateutil
+rapidpro-dash
+rapidpro-python
+raven
+redis
+regex
+sorl-thumbnail
+xlutils
+
+############## Testing ##############
+
+coverage
+flake8
+responses

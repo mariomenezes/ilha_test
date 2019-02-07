@@ -1,0 +1,10 @@
+warning: debconf: delaying package configuration, since apt-utils is not installed
+
+
+/usr/local/bin/docker-entrypoint.sh: line 176: /run_postegres.sh: No such file or directory
+# Acredito que nao seja necessario usar virtulenv dentro de um container
+web_1  | ./run_web.sh: line 6: virtualenv: command not found
+web_1  | ./run_web.sh: line 7: env/bin/activate: No such file or directory
+
+running bootstrap script ... ok
+db_1   | performing post-bootstrap initialization ... sh: locale: not found
